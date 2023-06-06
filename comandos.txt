@@ -1,0 +1,41 @@
+  497  cd desktop
+  498  mkdir 20230605-JorgeMonzon
+  499  cd 20230605-JorgeMonzon/
+  501  git init
+  502  touch comandos.txt main.js index.html
+  503  ls
+  504  git add .
+  505  git commit -m "commit 01 de JorgeMonzon"
+  506  git remote add origin https://github.com/JorgeDevmm/20230605-JorgeMonzon.git   
+  507  git push -u origin main
+  508  git branch feature
+  509  git checkout feature
+  510  mkdir Hardware Software SeguridadInformatica
+  511  cd Hardware
+  512  touch resumen.txt
+  513  cd ..
+  514  pwd
+  515  pwd
+  516  ls
+  517  cd Software
+  518  touch resumen.txt
+  519  cd ..
+  520  ls
+  521  cd SeguridadInformatica
+  522  touch resumen.txt
+  523  ls
+  524  cd ..
+  525  ls
+  526  pwd
+  527  ls
+  528  git add .
+  529  git commit -m "commit 02 de JorgeMonzon"
+  530  git push origin feature
+  531  git checkout main
+  532  mv main.js resumenHardware.txt
+  533  mv index.html resumenSoftware.txt
+  534  ls
+  535  nano resumenSoftware.txt
+  536  nano resumenHarware.txt
+  537  nano comandos.txt
+  538  history
